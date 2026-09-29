@@ -1,0 +1,19 @@
+{
+  "name": "junior-medusa-task",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Junior developer assessment solution — Medusa v2 backend + Next.js storefront",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace apps/backend",
+    "dev:storefront": "npm run dev --workspace apps/storefront",
+    "seed": "npm run seed --workspace apps/backend",
+    "build:backend": "npm run build --workspace apps/backend",
+    "build:storefront": "npm run build --workspace apps/storefront"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

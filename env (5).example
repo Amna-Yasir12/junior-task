@@ -1,0 +1,5 @@
+# URL of the running Medusa backend
+NEXT_PUBLIC_MEDUSA_BACKEND_URL=http://localhost:9000
+
+# Publishable API key printed by the seed script (apps/backend: npm run seed)
+NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY=pk_replace_me
